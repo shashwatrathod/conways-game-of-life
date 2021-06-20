@@ -22,8 +22,12 @@ You can view the live demo [here](https://conways-game-of-life-by-shash.herokuap
 
 To play the simulation:
 
-- (Optional) Change the grid size ![Changing grid size](/images/grid.png) (Default : 25 \* 50)
-- (Optional) Set the interval between two generations. ![Set interval](images/interval.png) (Default : 1000ms)
+- (Optional) Change the grid size
+ ![Changing grid size](/images/grid.png) 
+ (Default : 25 \* 50)
+- (Optional) Set the interval between two generations. 
+ ![Set interval](images/interval.png) 
+ (Default : 1000ms)
 - Click on the cells to populate/unpopulate them.
 - Press start for the fun to begin!
 
