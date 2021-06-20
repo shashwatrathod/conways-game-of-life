@@ -1,0 +1,33 @@
+:root {
+  --grid-cols: 40;
+  --grid-rows: 20;
+}
+
+.game-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.game-container > * + * {
+  margin-top: 5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
