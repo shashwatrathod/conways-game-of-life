@@ -17,7 +17,18 @@
 }
 
 .game-container > * + * {
-  margin-top: 5rem;
+  margin-top: 3rem;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls-container > * + * {
+  margin-left: 2rem;
 }
 
 .grid {

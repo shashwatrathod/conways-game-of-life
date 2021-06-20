@@ -19,7 +19,45 @@
       <div class="game-container">
         <div class="grid"></div>
         <div class="controls-container">
-          <button class="btn" id="start-stop-toggle">Start</button>
+          <div class="mb-3">
+            <label for="row-input" class="form-label">Rows</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="row-input"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="col-input" class="form-label">Columns</label>
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="col-input"
+            />
+          </div>
+          <div class="mb-3">
+            <label
+              for="interval-input"
+              id="interval-input-label"
+              class="form-label"
+              >Interval</label
+            >
+            <input
+              type="range"
+              class="form-range form-range-lg"
+              id="interval-input"
+              min="500"
+              max="5000"
+              step="500"
+            />
+          </div>
+          <button class="btn btn-lg btn-success" id="start-stop-toggle">
+            Start
+          </button>
+          <button class="btn btn-lg btn-primary" id="reset">Reset</button>
+        </div>
+        <div class="generation-counter">
+          <h4># generation: <span class="generation">0</span></h4>
         </div>
       </div>
     </div>
