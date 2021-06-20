@@ -301,7 +301,7 @@ document.addEventListener("DOMContentLoaded", () => {
     generationCounter = 0;
     generationSpan.innerHTML = generationCounter;
 
-    resetBoard();
+    board = resetBoard();
   });
 
   intervalInputLabel.innerHTML = `Interval (${currentTimeInterval}ms)`;
